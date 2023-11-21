@@ -1,4 +1,7 @@
 #!/bin/bash
+
+echo 'root:wangjile' | chpasswd
+
 source /app/config.sh
 
 service ssh start
